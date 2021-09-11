@@ -75,7 +75,7 @@ export default class CalcCost extends Component {
     onSubmit(e) {
         e.preventDefault();
 
-        const salary = {
+        const cost = {
             _id: this.state._id,
             patientname: this.state.patientname,
             date: this.state.date,
